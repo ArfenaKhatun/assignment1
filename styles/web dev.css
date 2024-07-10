@@ -6,16 +6,79 @@
   font-style: normal;
 }
 /*shared style*/
+.btn-secondary{
+    font-weight: 500px;
+    font-size: 20px;
+    
+   
+}
 .btn-primary{
+   font-size: 20px;
+   font-weight: 500px;
     padding: 17px 24px;
     border-radius: 8px;
 }
 .btn-primary1{
+    font-size: 20px;
+    font-weight: 500px;
     color: #FFFFFF;
     background-color: #0D1321;
 
 }
+.section-title{
+    font-size: 32px;
+    font-weight: 800px;
+    color: #0D1321;
+    text-align: center;
+    margin-top: 80px;
+}
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+}
 
+/*web dev styles*/
+.web-dev{
+    text-align: center;
+    border-radius: 16px;
+    padding: 80px 97px;
+  
+   
+    
+}
+.web-dev-items{
+    display: flex;
+    padding: 48px;
+    margin: 0px 130px;
+    
+   
+}
+.web-dev-items1{
+    display: flex;
+    padding: 48px;
+    margin: 0px 130px;
+
+}
+.web-dev-items2{
+    display: flex;
+    padding: 48px;
+    margin: 0px 130px;
+}
+
+   
+}
+}
+.item-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+   
+   
+}
+.item-description{
+    font-size: 16px;
+    color: #0D1321;
+}
 
 
 
@@ -62,7 +125,11 @@ nav li a{
 .banner-profile-pic{
     width: 240px;
 }
-/*Heaer styles*/
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
   
     
