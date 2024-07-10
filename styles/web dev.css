@@ -12,6 +12,11 @@
     
    
 }
+.btn{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0D1321;
+}
 .btn-primary{
    font-size: 20px;
    font-weight: 500px;
@@ -25,24 +30,37 @@
     background-color: #0D1321;
 
 }
+/* section styles*/
 .section-title{
     font-size: 32px;
     font-weight: 800px;
     color: #0D1321;
     text-align: center;
-    margin-top: 80px;
+   
 }
 .section-description{
    text-align: center;
     font-size: 16px;
     color: #0D1321;
+    margin: 0px 130px;
+   
+    
    
     
 }
+.section-gap{
+    padding:  48px 0px;
+    
+}
 /*Inspiration*/
+.my-inspiration{
+    margin: 0px 150px;
+   
+   
+}
 .video-content{
     border-radius: 16px;
-    margin: 32px;
+    margin: 130px;
     
 }
 
@@ -52,22 +70,29 @@
 .web-dev{
     text-align: center;
     border-radius: 16px;
-    padding: 80px 97px;
-  
-   
+    padding: 130px 0px;
+    margin: 130px;
+}
+.web-dev-item{
+    margin: 0px 130px;
     
+}
 }
 .web-dev-items{
     display: flex;
     padding: 48px;
-    margin: 0px 130px;
+    margin: 0 130px;
+   
     
    
 }
 .web-dev-items1{
     display: flex;
     padding: 48px;
-    margin: 0px 130px;
+    margin: 0 190px;
+    
+
+    
 
 }
 .web-dev-items2{
@@ -87,6 +112,7 @@
    
 }
 .item-description{
+   
     font-size: 16px;
     color: #0D1321;
 }
@@ -151,6 +177,9 @@ main{
             gap: 24px;
 
 }
+.skills{
+    margin: 0px 150px;
+}
 
 /*support style*/
 
@@ -187,6 +216,7 @@ main{
     color: #0D1321;
     border-radius: 8px;
     padding: 15px 15px ;
+    
 
 
 }
@@ -203,7 +233,7 @@ footer{
 .footer-title{
     font-size: 20px;
     font-weight: 600;
-    margin-left: 300px;
+    margin-left: 98px;
 }
 
 
