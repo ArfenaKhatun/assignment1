@@ -33,10 +33,21 @@
     margin-top: 80px;
 }
 .section-description{
+   text-align: center;
     font-size: 16px;
     color: #0D1321;
+   
+    
+}
+/*Inspiration*/
+.video-content{
+    border-radius: 16px;
+    margin: 32px;
+    
 }
 
+
+}
 /*web dev styles*/
 .web-dev{
     text-align: center;
@@ -104,6 +115,9 @@ nav li a{
     font-size: 20px;
     font-weight: 700px;
 }
+li  {
+   list-style: none;
+}
 /*banner styles*/
 .banner{
    text-align: center;
@@ -130,7 +144,13 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+/*skills styles*/
+.skills-container{
+            display: flex;
+            gap: 24px;
+
+}
+
 
   
     
-}
